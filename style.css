@@ -1,0 +1,191 @@
+/* Reset some default styles */
+body, h1, h2, p, ul, form {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-image: url('image/Background.jpg'); /* Replace with the path to your background image */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin: 0;
+    position: relative;
+    background-attachment: fixed;
+}
+
+
+/* Header Styles */
+/* Updated Section Styles */
+header,
+nav,
+#services,
+#portfolio,
+#client-reviews,
+#contact,
+footer {
+    text-align: center;
+}
+
+/* Center all sections */
+section {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+/* Header Styles */
+header {
+    background-color: #775b77;
+    color: #fff;
+    padding: 3em 0;
+    position: center;
+}
+header img {
+    max-width: 300px;
+    height: auto;
+    margin-bottom: 1em;
+    s
+}
+
+header h1 {
+    margin-bottom: 0.5em;
+    font-size: 2.5em;
+}
+
+header p {
+    font-size: 1.2em;
+}
+
+/* Navigation Styles */
+nav {
+    display: flex;
+    justify-content: center;
+    background-color;
+    padding: 1em 0;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+    padding: 0.5em 1em;
+    margin: 0 1em;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+nav a:hover {
+    background-color: #555;
+}
+
+/* Service Styles */
+#services {
+    background-color: #fff;
+    padding: 4em 0;
+}
+
+/* Portfolio Styles */
+#portfolio {
+    background-color: #f4f4f4;
+    padding: 4em 0;
+}
+
+.project-container {
+    display: flex;
+    justify-content: center;
+}
+
+.project {
+    text-align: center;
+    max-width: 600px; /* Adjust the max-width as needed */
+    margin: 0 auto; /* Center the project container */
+}
+
+.project img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+    margin-bottom: 1em;
+}
+
+.project-details {
+    text-align: left;
+}
+
+.project h3 {
+    font-size: 1.5em;
+    margin-bottom: 0.5em;
+}
+
+.project p {
+    line-height: 1.6;
+}
+
+/* Client Reviews Styles */
+#client-reviews {
+    background-color: #f9f9f9;
+    padding: 4em 0;
+}
+
+.review {
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 2em;
+    margin-bottom: 2em;
+}
+
+.review p {
+    margin-bottom: 1em;
+    color: #333;
+}
+
+.review .client-name {
+    font-weight: bold;
+    color: #555;
+}
+
+/* Contact Form Styles */
+#contact {
+    background-color;
+    padding: 4em 0;
+}
+
+form {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+label {
+    display: block;
+    margin-bottom: 0.5em;
+    color: #555;
+}
+
+input,
+textarea {
+    width: 100%;
+    padding: 0.8em;
+    margin-bottom: 1.5em;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+input[type="submit"] {
+    background-color: #333;
+    color: #fff;
+    padding: 0.8em 1em;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background-color: #555;
+}
+
+/* Footer Styles */
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 2em 0;
+}

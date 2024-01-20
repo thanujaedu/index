@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pat Pat Printing</title>
+    <link rel="stylesheet" href="style.css">
+    
+</head>
+<body>
+
+    <header>
+        <a href="pat.html">
+        <img src="image/logo.png.png" alt="Your Company Logo" >
+    </a>
+        <p>Quality Printing Services</p>
+    </header>
+
+    <nav>
+        <a href="#services">Services</a>
+        <a href="#portfolio">Portfolio</a>
+        <a href="#contact">Contact</a>
+        <a href="#client-reviews">Client Reviews</a>
+    </nav>
+
+    <section id="services">
+        <h2>Our Services</h2>
+        <p>We offer a wide range of printing services to meet your needs.</p>
+        <ul>
+            <ul>Offset Printing</ul>
+            <ul>Digital Printing</ul>
+            <ul>Large Format Printing</ul>
+            <ul>Custom Design</ul>
+        </ul>
+    </section>
+
+    <section id="portfolio">
+        <h2>Portfolio</h2>
+        
+        <div class="project">
+            <img src="path/to/project1.jpg" alt="Project 1">
+            <h3>Project 1</h3>
+            <p>Description of Project 1 goes here. You can provide details about the technologies used, challenges faced, and outcomes.</p>
+        </div>
+    
+        <div class="project">
+            <img src="path/to/project2.jpg" alt="Project 2">
+            <h3>Project 2</h3>
+            <p>Description of Project 2 goes here. Add relevant information about the project to showcase your skills and achievements.</p>
+        </div>
+        <!-- Add images or descriptions of your portfolio here -->
+    </section>
+    
+    <section id="client-reviews">
+        <h2>Client Reviews</h2>
+        <div class="review">
+            <p>"Excellent service! The print quality exceeded our expectations. Will definitely work with them again."</p>
+            <p class="client-name">John Doe</p>
+        </div>
+
+        <div class="review">
+            <p>"Fast and reliable. The team at Your Printing Company made the process easy and delivered on time."</p>
+            <p class="client-name">Jane Smith</p>
+        </div>
+    </section>
+
+    <section id="contact">
+        <h2>Contact Us</h2>
+        <p>Get in touch with us for all your printing requirements.</p>
+        <form>
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required><br>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required><br>
+
+            <label for="message">Message:</label><br>
+            <textarea id="message" name="message" rows="4" required></textarea><br>
+
+            <input type="submit" value="Submit">
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Pat Pat printing. All rights reserved.</p>
+    </footer>
+    <script>
+        document.addEventListener("DOMContentLoaded", function() {
+            // Select all links with hashes
+            document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+                anchor.addEventListener('click', function (e) {
+                    e.preventDefault();
+    
+                    document.querySelector(this.getAttribute('href')).scrollIntoView({
+                        behavior: 'smooth'
+                    });
+                });
+            });
+        });
+    </script>
+
+</body>
+</html>
